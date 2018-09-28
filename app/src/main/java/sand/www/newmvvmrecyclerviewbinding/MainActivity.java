@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         mLinearLayOut = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(mLinearLayOut);
         recyclerView.setAdapter(mAdapter);
-
+        //WithMVVMRecyclerViewBinding
         setDataInRv();
     }
 
